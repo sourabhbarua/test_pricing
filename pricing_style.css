@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pricing{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 14px;
+}
+
+.pricing .plan{
+    padding: 30px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #F3F4F6;
+
+    border-radius: 10px;
+}
+
+.pricing .plan h1{
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pricing .plan .price{
+    font-size: 32px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.pricing .plan p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pricing .plan ul{
+    padding: 28px 0px;
+}
+.pricing .plan ul li{
+    list-style-type: none;
+    padding: 4px 0px;
+}
+
+.pricing .plan button{
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    width: 140px;
+    background-color: blueviolet;
+    color: aliceblue;   
+}
+
+.pricing .plan:hover{
+    background-color: rgb(80, 21, 136);
+    color: #F3F4F6;
+}
